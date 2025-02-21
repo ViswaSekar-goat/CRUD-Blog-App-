@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  font-family: "Ubuntu", serif;
+}
+
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  text-align: center;
+}
+
+header .Logo{
+  text-decoration: none;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight:bolder;
+  color: black;
+}
+
+header .refLink a{
+  margin-left: 30px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(68, 67, 67);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+main{
+  margin: 30px 20px;
+}
+
+.post{
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.post h1{
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.post img{
+  width: 300px;
+  height: auto;
+} 
+
+.post .description{
+  margin: 10px 0;
+}
+
+.post .author{
+  font-weight: bold;
+  margin: 5px 0 0 3px;
+  color:rgb(88, 88, 88);
+}
+
+.loginBody{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginPage{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPage input, .RegisterPage input{
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 10px;
+  height: 4rem;
+  border-radius: 10px;
+  width: 100%;
+} 
+
+.loginPage button, .RegisterPage button{
+  margin-top: 10px;
+  width: 100%;
+  min-height: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.RegisterPage{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RegisterBody{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postImage{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.createPostForm{
+  max-width: 900px;
+}
+
+.postTitle a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.imageSinglePost img{
+  height: 300px;
+  width: auto;
+}
