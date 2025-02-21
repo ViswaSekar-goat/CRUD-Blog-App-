@@ -19,7 +19,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use('/uploads',express.static(pathh.join(__dirname,'uploads')));
 
-mongoose.connect("mongodb+srv://myjavamobile:RzrGnd1D4pqBFuUV@cluster0.w5tr4.mongodb.net/Blog?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("")
 
 
 
